@@ -1,0 +1,4 @@
+openweather : 
+username : hello
+email : gefisa7155@czilou.com
+my api key : d3bf7bb146cb8050e87552023e514dd7

@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background: url("weather.jpg") no-repeat center center / cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+}
+
+.card {
+  width: 100%;
+  background: #000000d0;
+  color: white;
+  padding: 18px;
+  margin: 36px;
+  border-radius: 30px;
+  max-width: 500px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  height: 44px;
+  width: 44px;
+  margin: 5px;
+  border-radius: 50%;
+  border: none;
+  background: #7c7c7c2b;
+  color: white;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #7c7c7c6b;
+}
+
+button i {
+  font-size: 20px;
+}
+
+input.search-bar {
+  border: none;
+  padding: 7px 18px;
+  border-radius: 24px;
+  background: #7c7c7c2b;
+  color: white;
+  font-size: 20px;
+  width: 350px;
+}
+
+h1.temp {
+  margin: 0;
+  margin: 0px 10px;
+}
+
+.description {
+  margin-left: 8px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
